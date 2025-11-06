@@ -58,6 +58,10 @@ mkdir -p "${RELEASE_DIR}"
 # ZIP 파일 생성 (전송 안정성 최고)
 ZIP_NAME="${APP_NAME}-${VERSION}.zip"
 rm -f "${RELEASE_DIR}/${ZIP_NAME}"
+
+# quarantine 속성 제거 (Gatekeeper 문제 방지)
+xattr -cr "${APP_BUNDLE}"
+
 ditto -c -k --sequesterRsrc --keepParent "${APP_BUNDLE}" "${RELEASE_DIR}/${ZIP_NAME}"
 
 # DMG 파일 생성 (macOS 표준 배포)

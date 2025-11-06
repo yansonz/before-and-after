@@ -32,7 +32,8 @@ brew install --cask before-after-compare
 
 1. [Releases](https://github.com/yansonz/before-and-after/releases) 페이지에서 최신 ZIP 파일 다운로드
 2. ZIP 파일을 풀고 `BeforeAfterCompare.app`을 Applications 폴더로 이동
-3. Applications 폴더에서 앱 실행
+3. **첫 실행 시:** 터미널에서 `xattr -cr /Applications/BeforeAfterCompare.app` 실행
+4. Applications 폴더에서 앱 실행
 
 ## 사용법
 
@@ -136,6 +137,16 @@ MIT License - 자세한 내용은 [LICENSE](LICENSE) 파일을 참고하세요.
 - [INSTALL.md](INSTALL.md) - 사용자 설치 가이드
 
 ## 문제 해결
+
+### "손상되었습니다" 오류 ("is damaged and can't be opened")
+
+이는 macOS Gatekeeper 보안 기능입니다. 터미널에서 다음 명령어를 실행하세요:
+
+```bash
+xattr -cr /Applications/BeforeAfterCompare.app
+```
+
+또는 우클릭 후 "열기" 선택하면 실행됩니다.
 
 ### 앱이 실행되지 않을 때
 
