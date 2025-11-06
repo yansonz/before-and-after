@@ -1,6 +1,6 @@
 cask "before-after-compare" do
   version "1.0.0"
-  sha256 "03d1be95358ea6f93b4da66e6ad3e1df93b76ad2cb2551998fe1c062ec3d301c"
+  sha256 "c207f885c6617bab255ab83b2062b0a53c111c28518d07316ff01e0830ddcd06"
 
   url "https://github.com/yansonz/before-and-after/releases/download/v#{version}/BeforeAfterCompare-#{version}.zip"
   name "Before After Compare"
