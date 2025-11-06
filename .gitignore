@@ -1,0 +1,13 @@
+.DS_Store
+.build/
+*.swp
+*.swo
+*~
+nohup.out
+BeforeAfterCompare.app/
+release/
+Resources/AppIcon.iconset/
+/tmp/
+generate-icon.py
+test.sh
+proejct_overview.md
