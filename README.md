@@ -24,13 +24,13 @@ Before After Compare는 제품이나 서비스의 개선 전후를 시각적으�
 ### Homebrew (권장)
 
 ```bash
-brew tap your-username/cask
+brew tap yansonz/cask
 brew install --cask before-after-compare
 ```
 
 ### 다운로드
 
-1. [Releases](https://github.com/your-username/BeforeAfterCompare/releases) 페이지에서 최신 ZIP 파일 다운로드
+1. [Releases](https://github.com/yansonz/BeforeAfterCompare/releases) 페이지에서 최신 ZIP 파일 다운로드
 2. ZIP 파일을 풀고 `BeforeAfterCompare.app`을 Applications 폴더로 이동
 3. Applications 폴더에서 앱 실행
 
@@ -159,4 +159,4 @@ rm -rf .build
 
 ## 작성자
 
-Your Name - [@your-username](https://github.com/your-username)
+[@yansonz](https://github.com/yansonz)
