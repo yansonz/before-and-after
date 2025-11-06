@@ -30,7 +30,7 @@ brew install --cask before-after-compare
 
 ### 다운로드
 
-1. [Releases](https://github.com/yansonz/BeforeAfterCompare/releases) 페이지에서 최신 ZIP 파일 다운로드
+1. [Releases](https://github.com/yansonz/before-and-after/releases) 페이지에서 최신 ZIP 파일 다운로드
 2. ZIP 파일을 풀고 `BeforeAfterCompare.app`을 Applications 폴더로 이동
 3. Applications 폴더에서 앱 실행
 
@@ -55,8 +55,8 @@ brew install --cask before-after-compare
 
 ```bash
 # 저장소 클론
-git clone https://github.com/yansonz/BeforeAfterCompare.git
-cd BeforeAfterCompare
+git clone https://github.com/yansonz/before-and-after.git
+cd before-and-after
 
 # 릴리스 빌드 (ZIP, DMG 생성)
 ./build-release.sh
